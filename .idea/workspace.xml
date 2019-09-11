@@ -7,7 +7,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37606a42-d503-46ba-ad5e-906efd5c19e4" name="Default Changelist" comment="" />
+    <list default="true" id="37606a42-d503-46ba-ad5e-906efd5c19e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvcdemo/src/main/java/com/atcdu/liujun/comtroller/Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvcdemo/src/main/java/com/atcdu/liujun/conpoment/MyFirstInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springmvcdemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/springmvcdemo_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test-demo/liujun/test/parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test-demo/liujun/test/parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvcdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvcdemo/src/main/resources/springMvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcdemo/src/main/resources/springMvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvcdemo/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcdemo/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvcdemo/target/classes/springMvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcdemo/target/classes/springMvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvcdemo/target/springmvc-demo.war" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcdemo/target/springmvc-demo.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvcdemo/target/springmvc-demo/WEB-INF/classes/springMvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcdemo/target/springmvc-demo/WEB-INF/classes/springMvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvcdemo/target/springmvc-demo/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcdemo/target/springmvc-demo/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +34,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -46,7 +65,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1QUU3IgFJI53LAtJZrxQ4e0WtrK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -60,15 +84,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23970588" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\liujun\Desktop\java-demo\springmvcdemo\src\main\webapp" />
-      <recent name="C:\Users\liujun\Desktop\java-demo\springmvcdemo\src\main\webapp\WEB-INF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\liujun\Desktop\java-demo\springmvcdemo\src\main\webapp\WEB-INF\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liujun\Desktop\java-demo\" />
+      <recent name="C:\Users\liujun\Desktop\java-demo\springmvcdemo\src\main\webapp" />
+      <recent name="C:\Users\liujun\Desktop\java-demo\springmvcdemo\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -86,6 +111,19 @@
   <component name="RunManager" selected="Tomcat Server.index.jsp">
     <configuration name="child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liujun.test.child" />
+      <module name="test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liujun.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zijie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liujun.test.zijie" />
       <module name="test-demo" />
       <extension name="coverage">
         <pattern>
@@ -257,6 +295,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.child" />
+      <item itemvalue="Application.zijie" />
       <item itemvalue="JavaScript Debug.hello.action" />
       <item itemvalue="JUnit.All in springmvcdemo" />
       <item itemvalue="Tomcat Server.index.jsp" />
@@ -264,6 +303,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Application.zijie" />
         <item itemvalue="Application.child" />
         <item itemvalue="JavaScript Debug.hello.action" />
         <item itemvalue="JUnit.All in springmvcdemo" />
@@ -293,11 +333,48 @@
       <workItem from="1567934166540" duration="609000" />
       <workItem from="1567991201911" duration="5142000" />
       <workItem from="1568009531160" duration="5224000" />
-      <workItem from="1568124709950" duration="198000" />
+      <workItem from="1568124709950" duration="465000" />
+      <workItem from="1568164564639" duration="6541000" />
+      <workItem from="1568182492240" duration="4206000" />
+      <workItem from="1568187649052" duration="1483000" />
     </task>
+    <task id="LOCAL-00001" summary="add file upload">
+      <created>1568184323018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568184323018</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix the position of README.md">
+      <created>1568184620353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568184620353</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add file upload" />
+    <MESSAGE value="fix the position of README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the position of README.md" />
   </component>
 </project>

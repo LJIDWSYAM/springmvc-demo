@@ -62,7 +62,7 @@
       <scope>provided</scope>
     </dependency>
 
-    <!-- 验证的jar -->
+    <!-- 验证的jar  校验包 -->
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-validator</artifactId>
@@ -70,7 +70,7 @@
     </dependency>
 
 
-        <!--jsti-->
+        <!--spring-jsti-表达式-->
       <dependency>
           <groupId>javax.servlet</groupId>
           <artifactId>jstl</artifactId>

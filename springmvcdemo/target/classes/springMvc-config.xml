@@ -70,4 +70,13 @@
         <property name="defaultEncoding" value="utf-8"></property>
         <property name="maxUploadSize" value="#{1024*1024*100}"></property>
     </bean>
+
+
+    <!--拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/interceptorTest"/>
+            <bean class="com.atcdu.liujun.conpoment.MyFirstInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

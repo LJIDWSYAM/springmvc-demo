@@ -96,4 +96,48 @@
         return "fileupload";
     }
  
-```
+```   
+## SpringMVC国际化  
+    
+        <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+            <!--  basename指定基础名-->
+            <property name="basename" value="i18n"></property>
+        </bean>
+    
+    
+        1、导包导入了jstl的时候会自动创建为一个jstlView；可以快速方便的支持国际化功能；
+        2、可以支持快速国际化；
+        1）、javaWeb国际化步骤；
+        1）、得得到一个Locale对象；
+        2）、使用ResourceBundle绑定国际化资源文件；
+        3）、使用ResourceBundle.getString("key")；获取到国际化配置文件中的值；
+        4）、web页面的国际化，fmt标签库来做；
+        <fmt:setLocale>
+        <fmt:setBundle >
+        <fmt:message>
+        2）、有了JstlView以后；
+        1）、让Spring管理国际化资源就行
+    
+        <!--让SpringMVC管理国际化资源文件；配置一个资源文件管理器  -->
+        <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+            <!--  basename指定基础名-->
+            <property name="basename" value="i18n"></property>value为国际化文件的前缀
+        </bean>
+    
+        2）、直接去页面使用<fmt:message>；
+    
+        <fmt:message key="welcomeinfo"/>
+    </h1>
+        <form action="">
+            <fmt:message key="username"/>:<input /><br/>
+            <fmt:message key="password"/>:<input /><br/>
+            <input type="submit" value='<fmt:message key="loginBtn"/>'/>
+        </form>
+        一定要过SpringMVC的视图解析流程，人家会创建一个jstlView帮你快速国际化；
+        也不能写forward:（
+    
+        if (viewName.startsWith(FORWARD_URL_PREFIX)) {
+        String forwardUrl = viewName.substring(FORWARD_URL_PREFIX.length());
+        return new InternalResourceView(forwardUrl);
+        }
+        ）
