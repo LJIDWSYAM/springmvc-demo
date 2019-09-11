@@ -29,7 +29,7 @@ public class Employee implements Serializable {
         this.birth = birth;
     }
 
-    @NotNull
+    @NotNull(message = "不能为空")
     private Integer id;
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     @Past
