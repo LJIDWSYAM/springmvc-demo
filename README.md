@@ -141,3 +141,37 @@
         return new InternalResourceView(forwardUrl);
         }
         ）
+        
+        
+## spring异常处理
+### 类异常
+在类里面生申明一个方法，该方法会处理本类的所有异常
+
+```java
+    @ExceptionHandler(Exception.class)
+    public ModelAndView handelException(Exception ex){
+        ModelAndView mv=new ModelAndView();
+        mv.setViewName("MyErrors");
+        mv.addObject("msg",ex.getMessage());
+        return mv;
+    }
+
+```
+### 全局异常处理  
+新建一个专门处理异常的类，
+标上@@ControllerAdvice（增强controller）
+ @ExceptionHandler(Exception.class)，申明异常处理方法，处理什么类型的异常
+```java
+
+@ControllerAdvice
+public class CenterException {
+    @ExceptionHandler(Exception.class)
+    public ModelAndView handelException(Exception ex){
+        ModelAndView mv=new ModelAndView();
+        mv.setViewName("MyErrors");
+        mv.addObject("msg",ex.getMessage());
+        return mv;
+    }
+
+}
+```
